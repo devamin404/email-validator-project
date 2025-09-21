@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="script.js" defer></script>
+  <title>Email Validator</title>
+</head>
+
+<body>
+  <div class="container">
+    <form>
+      <i class="fa-solid fa-paper-plane"></i>
+
+      <div class="input-group">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" id="name-content" />
+        <span class="name-error"></span>
+      </div>
+
+      <div class="input-group">
+        <label>Phone No.</label>
+        <input type="tel" placeholder="03xx-xxxxxxx" id="phone-content"/>
+        <span class="phone-error"></span>
+
+      </div>
+
+      <div class="input-group">
+        <label>Email Id</label>
+        <input type="email" placeholder="Enter Email" id="email-content"/>
+        <span class="email-error"></span>
+
+      </div>
+
+      <div class="input-group">
+        <label>Your Message</label>
+        <textarea placeholder="Enter your message" class="text-message"></textarea>
+        <span class="message-error"></span>
+      </div>
+      <button type="submit" id="btn ">Submit</button>
+      <span class="submit-error"></span>
+    </form>
+    
+  </div>
+
+
+</body>
+
+</html>
